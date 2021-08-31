@@ -6,7 +6,7 @@
 using namespace cv;
 using namespace std;
 
-int main(int ardc, char* argv[]) {
+int main(int argc, char* argv[]) {
 	Mat img = imread(argv[1], 1);
 
 	if (!img.data) {
